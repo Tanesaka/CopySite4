@@ -1,0 +1,474 @@
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* ここから */
+
+body {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+header {
+
+  width: 100%;
+  border-bottom: 2px solid #F0F0F0;
+  position: fixed;
+  top: 0;
+  background-color: #FFFFFF;
+  z-index: 1;
+}
+
+nav ul {
+  text-align: center;
+  line-height: 70px;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size:15px;
+  font-weight: 700;
+  padding: 0 20px;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #333333;
+}
+
+nav ul li a:hover {
+  border-bottom: 2.5px solid black;
+  transition: 0.2s;
+}
+
+.main-visual {
+  margin: 300px auto 280px;
+  width: 100%;
+  text-align: center;
+}
+
+.main-visual h1 {
+  font-size: 64px;
+  font-weight: 800;
+  color: #333333;
+  letter-spacing: 9px;
+}
+
+.main-visual p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #333333;
+  letter-spacing: 3px;
+  line-height: 36px;
+}
+
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.works {
+  background-color: #F7F7F7;
+  padding: 100px 30px;
+  text-align: center;
+}
+
+.works h2 {
+  font-size: 40px;
+  line-height: 40px;
+  color: #333333;
+  font-weight: 600;
+}
+
+.works p {
+  font-size: 15px;
+  line-height: 27px;
+  color: #333333;
+  margin-top: 20px;
+  letter-spacing: 1px
+}
+
+.images-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.works article {
+  width: 32%;
+  margin: 0 auto;
+}
+
+.works article img {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.works article img:hover {
+  position: relative;
+  bottom: 5px;
+  transition: 1s;
+}
+
+.works article h3 {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 2px;
+}
+
+.images-box article p {
+  font-size: 10px;
+  line-height: 18px;
+  position: relative;
+  bottom: 10px;
+}
+
+.images-box article a {
+  font-size: 10px;
+  text-decoration: none;
+  position: relative;
+  bottom: 10px;
+}
+
+.feature {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.feature h2 {
+  font-size: 40px;
+  line-height: 40px;
+  color: #333333;
+  font-weight: 600;
+  margin: 20px auto;
+}
+
+.feature p {
+  font-size: 15px;
+  line-height: 27px;
+  color: #333333;
+}
+
+.feature-box {
+  display: flex;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.side-image {
+  width: 41%;
+  margin: 0 auto;
+}
+.side-image img {
+  width: 100%;
+}
+
+.feature .side-image img:hover {
+  position: relative;
+  bottom: 5px;
+  transition: 1s;
+}
+
+.side-content {
+  width: 49%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.side-content span {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.side-content a {
+  text-decoration: none;
+  color: #1CA9E3;
+  line-height: 25px;
+}
+
+.point {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.about {
+  background-color: #F7F7F7;
+  padding: 100px 25px;
+  text-align: center;
+}
+
+.about .side-image {
+  width: 38%;
+  margin: 0 auto;
+}
+
+.about .side-content {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.about h2 {
+  font-size: 40px;
+  line-height: 40px;
+  color: #333333;
+  font-weight: 600;
+  margin: 20px auto;
+}
+
+.about img {
+  border-radius: 50%;
+  width: 220px;
+}
+
+.about p {
+  font-size: 15px;
+  line-height: 27px;
+  color: #333333;
+}
+
+.skill {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.skill h2 {
+  font-size: 40px;
+  line-height: 40px;
+  color: #333333;
+  font-weight: 600;
+  margin: 20px auto;
+}
+
+.skill p {
+  font-size: 15px;
+  line-height: 27px;
+  color: #333333;
+}
+
+.skill h3 {
+  font-size: 16px;
+}
+
+.skill-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.skill article {
+  display: flex;
+  width: 45%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.skill-image {
+  margin: 0 auto;
+  width: 30%;
+}
+
+.skill img {
+  width: 60px;
+}
+
+.skill-content {
+  margin: 0 auto;
+  width: 67%;
+  text-align: left;
+}
+
+.skill .star {
+  color: #F187C2;
+  font-size: 17px;
+  margin: 5px 0;
+  letter-spacing: 3px;
+}
+
+.skill .star span {
+  color: #DDDDDD;
+}
+
+.contact {
+  background-color: #F7F7F7;
+  padding: 115px 30px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 40px;
+  line-height: 40px;
+  color: #333333;
+  font-weight: 600;
+  margin: 20px auto;
+}
+
+.contact p {
+  font-size: 15px;
+  line-height: 27px;
+  color: #333333;
+}
+
+.contact img {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin: 20px 20px 8px;
+}
+
+footer {
+  height: 120px;
+  background-color: #1D1D1D;
+  text-align: center;
+}
+
+footer p a{
+  background-color: #CCCCCC;
+  display: block;
+  line-height: 40px;
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+}
+
+footer p small {
+  color: #6e685d;
+  line-height: 80px;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 767px) {
+.works article {
+  width: 48%;
+}
+
+.feature-box {
+  flex-wrap: wrap;
+}
+.side-image {
+  width: 98%;
+}
+.side-content {
+  width: 98%;
+}
+
+.about .side-image {
+  width: 38%;
+}
+.about .side-image img {
+  width: 100px;
+}
+.about .side-content {
+  width: 98%;
+  margin-top: 20px;
+}
+
+.skill article {
+  width: 98%;
+  position: relative;
+  right: 20px;
+}
+.skill-image {
+  margin: 0 auto;
+  width: 20%;
+}
+.skill-content {
+  margin: 0 auto;
+  width: 80%;
+  text-align: left;
+}
+
+
+}
